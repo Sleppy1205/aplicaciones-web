@@ -1,1 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de Clientes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+<div class="container">
+
+    <!-- TÍTULO PRINCIPAL -->
+    <h1>Registro de Clientes</h1>
+
+    <!-- FORMULARIO -->
+    <form id="formulario">
+
+        <!-- Campo cédula -->
+        <label>Cédula:</label>
+        <input type="text" id="cedula" required>
+
+        <!-- Campo nombre -->
+        <label>Nombre:</label>
+        <input type="text" id="nombre" required>
+
+        <!-- Campo dirección -->
+        <label>Dirección:</label>
+        <input type="text" id="direccion" required>
+
+        <!-- Campo teléfono -->
+        <label>Teléfono:</label>
+        <input type="tel" id="telefono" required>
+
+        <!-- Campo correo -->
+        <label>Correo:</label>
+        <input type="email" id="correo" required>
+
+        <!-- Botón guardar -->
+        <button type="submit">Guardar</button>
+
+    </form>
+
+    <!-- TABLA DE RESULTADOS -->
+    <h2>Clientes Registrados</h2>
+
+    <table id="tablaClientes">
+        <tr>
+            <th>Cédula</th>
+            <th>Nombre</th>
+            <th>Dirección</th>
+            <th>Teléfono</th>
+            <th>Correo</th>
+        </tr>
+    </table>
+
+</div>
+
+<!-- IMPORTANTE: aquí se conecta el JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>

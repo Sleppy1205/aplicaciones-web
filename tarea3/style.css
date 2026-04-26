@@ -1,1 +1,87 @@
+/* ===== ESTILO GENERAL ===== */
+body {
+    font-family: Arial, sans-serif;
+    background: #e8f6f5;
+    margin: 0;
+}
 
+/* ===== CONTENEDOR ===== */
+.container {
+    width: 650px; /* un poco más ancho para evitar que se vea apretado */
+    margin: 60px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/* ===== TÍTULOS ===== */
+h1, h2 {
+    text-align: center;
+    color: #1abc9c;
+}
+
+/* ===== FORMULARIO ===== */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Etiquetas */
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Inputs */
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Botón */
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background: #1abc9c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Efecto al pasar el mouse */
+button:hover {
+    background: #16a085;
+}
+
+/* ===== TABLA ===== */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+/* Encabezados */
+th {
+    background: #1abc9c;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* Celdas */
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+    font-size: 14px;
+
+    /* 🔥 CLAVE: TODO EN UNA SOLA LÍNEA */
+    white-space: nowrap;
+}
+
+/* Hover bonito */
+tr:hover {
+    background: #f2fefe;
+}
