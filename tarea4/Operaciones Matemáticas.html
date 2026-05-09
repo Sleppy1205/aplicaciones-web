@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Operaciones Matemáticas</title>
+</head>
+<body>
 
+<script type="text/javascript">
+
+// Ingreso de números
+var numero1 = parseFloat(prompt("Ingrese el primer número:"));
+var numero2 = parseFloat(prompt("Ingrese el segundo número:"));
+
+// Bucle de 5 iteraciones
+for (var i = 1; i <= 5; i++) {
+
+    if (i == 1) {
+        // SUMA
+        var suma = numero1 + numero2;
+        alert("PRIMERA iteración - SUMA: " + suma);
+    }
+
+    else if (i == 2) {
+        // RESTA
+        var resta = numero1 - numero2;
+        alert("SEGUNDA iteración - RESTA: " + resta);
+    }
+
+    else if (i == 3) {
+        // MULTIPLICACIÓN
+        var multiplicacion = numero1 * numero2;
+        alert("TERCERA iteración - MULTIPLICACIÓN: " + multiplicacion);
+    }
+
+    else if (i == 4) {
+        // DIVISIÓN
+        var division = numero1 / numero2;
+        alert("CUARTA iteración - DIVISIÓN: " + division);
+    }
+
+    else if (i == 5) {
+        // MODULO %
+        var modulo = numero1 % numero2;
+        alert("QUINTA iteración - MOD(%): " + modulo);
+    }
+
+}
+
+</script>
+
+</body>
+</html>
