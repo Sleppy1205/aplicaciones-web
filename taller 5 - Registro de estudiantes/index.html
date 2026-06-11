@@ -1,1 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Estudiantes</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <h1>Registro de Estudiantes</h1>
+
+        <form id="formulario">
+
+            <input type="text" id="cedula" placeholder="Cédula" required>
+
+            <input type="text" id="apellidos" placeholder="Apellidos" required>
+
+            <input type="text" id="nombres" placeholder="Nombres" required>
+
+            <input type="text" id="direccion" placeholder="Dirección" required>
+
+            <input type="text" id="telefono" placeholder="Teléfono" required>
+
+            <input type="email" id="correo" placeholder="Correo Electrónico" required>
+
+            <input type="text" id="facultad" placeholder="Facultad" required>
+
+            <input type="number" id="nivel" placeholder="Nivel" required>
+
+            <input type="text" id="paralelo" placeholder="Paralelo" required>
+
+            <button type="submit">Registrar Estudiante</button>
+
+        </form>
+
+        <h2>Estudiantes Registrados</h2>
+
+        <ul id="listaEstudiantes"></ul>
+
+    </div>
+
+    <script src="aplicacion.js"></script>
+
+</body>
+
+</html>
